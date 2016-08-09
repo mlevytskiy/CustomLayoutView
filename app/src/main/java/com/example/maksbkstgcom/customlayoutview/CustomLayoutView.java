@@ -32,9 +32,9 @@ public class CustomLayoutView extends ViewGroup {
             final View child = getChildAt(i);
             Log.i("CL", "i=" + i + " left=" + 0 + " top=" + i * getMeasuredHeight() / 2
                     + " right=" + getMeasuredWidth() + " bottom=" + getMeasuredHeight() / (count / (i+1)));
-            child.layout(0, i * getMeasuredHeight() / 2,
-                    getMeasuredWidth(), getMeasuredHeight() / (count / (i+1)));
+            child.layout(0, i * getMeasuredHeight() / 2, getMeasuredWidth(), getMeasuredHeight() / (count / (i+1)));
         }
+
     }
 
 }

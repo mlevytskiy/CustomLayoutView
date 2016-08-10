@@ -9,45 +9,66 @@
         android:layout_width="match_parent"
         android:layout_height="500dp">
 
-        <com.example.maksbkstgcom.customlayoutview.ViewWithRandomBackground
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
 
-        <com.example.maksbkstgcom.customlayoutview.ViewWithRandomBackground
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:src="@drawable/im1"
+            android:scaleType="centerCrop" />
 
-        <com.example.maksbkstgcom.customlayoutview.ViewWithRandomBackground
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:src="@drawable/im2"
+            android:scaleType="centerCrop" />
 
-        <com.example.maksbkstgcom.customlayoutview.ViewWithRandomBackground
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:src="@drawable/im3"
+            android:scaleType="centerCrop" />
 
-        <com.example.maksbkstgcom.customlayoutview.ViewWithRandomBackground
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:src="@drawable/im4"
+            android:scaleType="centerCrop" />
 
-        <com.example.maksbkstgcom.customlayoutview.ViewWithRandomBackground
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:src="@drawable/im5"
+            android:scaleType="centerCrop" />
 
-        <com.example.maksbkstgcom.customlayoutview.ViewWithRandomBackground
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:src="@drawable/im6"
+            android:scaleType="centerCrop" />
 
-        <com.example.maksbkstgcom.customlayoutview.ViewWithRandomBackground
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:src="@drawable/im7"
+            android:scaleType="centerCrop" />
 
-        <com.example.maksbkstgcom.customlayoutview.ViewWithRandomBackground
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:src="@drawable/im8"
+            android:scaleType="centerCrop" />
 
-        <com.example.maksbkstgcom.customlayoutview.ViewWithRandomBackground
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:src="@drawable/im9"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/im10"
+            android:scaleType="centerCrop" />
 
     </com.example.maksbkstgcom.customlayoutview.CustomLayoutView>
 

@@ -1,14 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.example.maksbkstgcom.customlayoutview.CustomLayoutView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <com.example.maksbkstgcom.customlayoutview.ViewWithRandomBackground
+    <com.example.maksbkstgcom.customlayoutview.CustomLayoutView
+        android:id="@+id/custom_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="500dp">
 
-    <com.example.maksbkstgcom.customlayoutview.ViewWithRandomBackground
+        <com.example.maksbkstgcom.customlayoutview.ViewWithRandomBackground
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.example.maksbkstgcom.customlayoutview.ViewWithRandomBackground
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.example.maksbkstgcom.customlayoutview.ViewWithRandomBackground
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.example.maksbkstgcom.customlayoutview.ViewWithRandomBackground
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.example.maksbkstgcom.customlayoutview.ViewWithRandomBackground
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.example.maksbkstgcom.customlayoutview.ViewWithRandomBackground
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.example.maksbkstgcom.customlayoutview.ViewWithRandomBackground
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.example.maksbkstgcom.customlayoutview.ViewWithRandomBackground
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.example.maksbkstgcom.customlayoutview.ViewWithRandomBackground
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.example.maksbkstgcom.customlayoutview.ViewWithRandomBackground
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.example.maksbkstgcom.customlayoutview.CustomLayoutView>
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:gravity="center" >
 
-</com.example.maksbkstgcom.customlayoutview.CustomLayoutView>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="-" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="+" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
